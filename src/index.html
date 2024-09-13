@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+
+    <title>Curso INSPA</title>
+    
+</head>
+
+<body class=" w-full h-[100vh] flex justify-center items-center  bg-gray-100 gap-4  " >
+    <div class=" w-2/4 h-[80vh]   flex justify-center  ">
+
+        <img  class="size-100px" src="img222.png" alt="imagem">
+
+    </div>
+    <div class=" w-[30%] h-[80vh] flex flex-col justify-between items-center  bg-white rounded-[10px] pb-[30px]  ">
+        <h1 class="flex flex-col w-[90%] mt-4 text-3xl font-serif ">Welcome to <b class="text-purple-800 text-5xl">Design
+                School</b></h1>
+        <form class="flex flex-col w-[90%] gap-5 ">
+            <label class="flex items-center  bg-gray-100 gap-4  ">
+
+                <svg class="size-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21.75 7.5v9.75a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V7.5m19.5 0a2.25 2.25 0 00-2.25-2.25H4.5A2.25 2.25 0 002.25 7.5m19.5 0L12 13.5 2.25 7.5" />
+                </svg>
+
+                <div class="flex flex-col  w-[100%]">
+                    <span class="text-xs decoration-gray-600">Email</span>
+                    <input class="email bg-transparent text-black  " type="email" name="" placeholder="example@gmail.com">
+                </div>
+
+
+            </label>
+
+            <label class=" flex flex-auto items-center bg-gray-100 gap-4">
+                
+                
+                <svg class="size-9" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M16.5 10.5V7.125a4.125 4.125 0 10-8.25 0V10.5m12 0h-15a1.5 1.5 0 00-1.5 1.5v8.25a1.5 1.5 0 001.5 1.5h15a1.5 1.5 0 001.5-1.5V12a1.5 1.5 0 00-1.5-1.5zm-10.5 0V7.125a2.625 2.625 0 115.25 0V10.5" />
+                </svg>
+
+                <div class="flex flex-col w-[100%]">
+                    <span class="text-xs decoration-gray-600">Password</span>
+                    <input  class="pass bg-transparent " type="password" name="" placeholder="******************">
+                </div>
+            </label>
+            <div class="flex flex-auto justify-between items-center ">
+                <label class="cursor-pointer">
+                    <input type="checkbox" name="" id="">
+                    <span >Remember me</span>
+                </label>
+                <a href="#" class="cursor-pointer text-blue-900 transition hover:underline   ">Forgot Password?</a>
+            </div>
+
+            <button class="login bg-purple-950 h-[60px] text-white transition hover:bg-purple-800 rounded-[10px] mt-10">Login</button>
+        </form>
+        <span class="msg rounded-s-full flex justify-center items-center w-[90%]"></span>
+        <p>Don't have an account? <a href="#" class="text-blue-900 hover:underline ">Register</a></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
